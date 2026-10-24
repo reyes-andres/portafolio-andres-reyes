@@ -1,12 +1,65 @@
-/* Estilos del portafolio */
-
-/* quitar margenes que pone el navegador por defecto */
-* {
+/* Estilos generales */
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    background-color: #f2f6fa;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
 }
 
-body {
-    font-family: Arial, sans-serif;
+/* Encabezado */
+.encabezado {
+    background-color: #144d9c;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.encabezado h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.encabezado p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Menú */
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 14px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Sección de inicio */
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 40px;
+}
+
+.inicio h2 {
+    color: #144d9c;
+    font-size: 32px;
+}
+
+/* Foto redonda */
+.foto {
+    border-radius: 50%;
+    object-fit: cover;
 }
