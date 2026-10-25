@@ -63,3 +63,38 @@ body {
     border-radius: 50%;
     object-fit: cover;
 }
+
+/* Sobre mí y habilidades */
+.sobre-mi,
+.habilidades {
+    padding: 40px;
+}
+
+.sobre-mi h2,
+.habilidades h2 {
+    color: #144d9c;
+}
+
+.sobre-mi {
+    background-color: white;
+}
+
+/* Tarjetas de habilidades */
+.lista-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tarjeta {
+    background-color: white;
+    width: 250px;
+    padding: 15px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+}
+
+.tarjeta h3 {
+    margin-top: 0;
+    color: #144d9c;
+}
